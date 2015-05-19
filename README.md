@@ -24,4 +24,4 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 3. We can use grep funciton to extract the mean and the standard deveiation from the features text.
 4. After loading the activity_labels file,we can use gsub to extract the labels,adn named the train_y and subject "activity" and "subject"
 5. Then use cbind to merge the subject,train_y and train_X,and write to cleanData.txt
-6. In the end,caculate the mean of subjects and activities,and export to average_cleanData.txt
+6. In the end,calculate the mean of subjects and activities,and export to average_cleanData.txt
