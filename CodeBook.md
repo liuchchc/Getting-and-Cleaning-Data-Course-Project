@@ -6,12 +6,12 @@ Original description: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Reco
 1. Merges the training and the test sets to create one data set
 Read the "train/X_train.txt" to trainX,"train/y_train.txt" to trainy,"train/subject_train.tx" to subject_train,
 "test/X_test.txt" to testX,"test/y_test.txt" to testy,"test/subject_test.tx" to subject_test.Then use the rbind to merge the data sets,
-"mergeTrainSetX" is a 10299*66 data frame
-"mergeTrainSetY" is a 10299*1 data frame
-"mergeTrainSetSubject" also a 10299*1 data frame
+"mergeTrainSetX" is a 10299 × 66 data frame
+"mergeTrainSetY" is a 10299 × 1 data frame
+"mergeTrainSetSubject" also a 10299 × 1 data frame
 
 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
-Read the features.txt to features,then find the rows witch contains the mean and std,the features is a 561*2 data frame.After get the features
+Read the features.txt to features,then find the rows witch contains the mean and std,the features is a 561 × 2 data frame.After get the features
 we can named the mergeTrainSetX
 
 3. Uses descriptive activity names to name the activities in the data set
